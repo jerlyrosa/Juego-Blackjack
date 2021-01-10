@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <script src="./assets/js/juego.js"></script>
+ 
 
     <header  class="titulo">
         Blackjack
@@ -17,29 +17,23 @@
 
     <div class="row mt-4">
         <div class="col text-center">
-            <button class=" btn btn-primary">Nuevo juego</button>
-            <button class=" btn btn-success">Pedir Cartas</button>
-            <button class=" btn btn-danger">Detener</button>
+            <button id='btnNuevoJuego' class=" btn btn-primary">Nuevo juego</button>
+            <button id='btnPedirCartas'class=" btn btn-success">Pedir Cartas</button>
+            <button id='btnDetenerJuego' class=" btn btn-danger">Detener</button>
         </div>
 
         <div class="container ">
         <div class="row justify-content-evenly">
         <div class="col-4 row mt-4">
-            <h1 class="col text-center">Jugador 1 - <small>0</small></h1>
+            <h1 class="col text-center">Jugador 1 - <small id='puntos'>0</small></h1>
             <div id="jugador-cartas">
-                <img  class="cartas" src="assets/cartas/2C.png">
-                <img  class="cartas" src="assets/cartas/2C.png">
-                <img  class="cartas" src="assets/cartas/2C.png">
-                <img  class="cartas" src="assets/cartas/2C.png">
+                <!-- <img  class="cartas" src="assets/cartas/2C.png"> -->
             </div>
         </div>
         <div class="col-4 row mt-4">
             <h1 class="col text-center">Computador - <small>0</small></h1>
             <div id="conputador-cartas">
-                <img  class="cartas" src="assets/cartas/5C.png">
-                <img  class="cartas" src="assets/cartas/5C.png">
-                <img  class="cartas" src="assets/cartas/5C.png">
-                <img  class="cartas" src="assets/cartas/5C.png">
+                <!-- <img  class="cartas" src="assets/cartas/5C.png"> -->
             </div>
     </div>
 </div>
@@ -61,7 +55,7 @@
     </div> -->
 
 
-
+    <script src="./assets/js/juego.js"></script>
 
 </body>
 </html>
