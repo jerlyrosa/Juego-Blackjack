@@ -42,7 +42,7 @@
 
     const mezclarCartas = () =>{
         for(let i = 0; i < deck.length; i++){
-        control =  Math.round(Math.random() * 51 );
+       let  control =  Math.round(Math.random() * 51 );
             ( nuevoDeck.includes(deck[control]) ) ? 
             i-- : nuevoDeck.push( deck[control] ) ;
         }
@@ -153,7 +153,7 @@
         mezclarCartas();
 
 
-    })
+    });
 
 })();
 
