@@ -51,8 +51,7 @@ const modulo = (()=>{
                 }
                 return deck = nuevoDeck;
 
-        }
-  
+
     //Funcion para pedir una carta
 
     const pedirCarta = () => {
